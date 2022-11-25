@@ -1,0 +1,112 @@
+[20-Sep-2022 16:08:07 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:08:07 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:11:50 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nus3952_sidoi'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:11:50 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:11:51 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nus3952_sidoi'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:11:51 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:12:26 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nus3952_sidoi'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:12:26 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:12:27 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nus3952_sidoi'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:12:27 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:12:28 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nus3952_sidoi'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:12:28 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:12:55 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nus3952_sidoi'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:12:55 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:12:56 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nus3952_sidoi'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:12:56 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:14:19 Asia/Jakarta] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:14:19 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:14:19 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:14:20 Asia/Jakarta] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:14:20 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:14:20 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:15:34 Asia/Jakarta] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:15:34 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:15:34 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:15:35 Asia/Jakarta] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:15:35 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:15:35 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:15:58 Asia/Jakarta] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:15:58 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:15:58 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:15:59 Asia/Jakarta] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:15:59 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:15:59 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:16:15 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nuss3952_nurjaman'@'localhost' to database 'nuss3952_sidoi' in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:16:15 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:16:16 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nuss3952_nurjaman'@'localhost' to database 'nuss3952_sidoi' in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:16:16 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:16:16 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nuss3952_nurjaman'@'localhost' to database 'nuss3952_sidoi' in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:16:16 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:16:17 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nuss3952_nurjaman'@'localhost' to database 'nuss3952_sidoi' in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:16:17 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:16:54 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nuss3952_nurjaman'@'localhost' to database 'nuss3952_sidoi' in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:16:54 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:16:56 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'nuss3952_nurjaman'@'localhost' to database 'nuss3952_sidoi' in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:16:56 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:19:07 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nuss3952_nurjaman'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:19:07 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:20:45 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nuss3952_nurjaman'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:20:45 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:20:47 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nuss3952_nurjaman'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:20:47 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:21:53 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nuss3952_nurjaman'@'2001:df0:27b:2::628b' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:21:53 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:22:20 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nuss3952_nurjaman'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:22:20 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:22:26 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'nuss3952_nurjaman'@'localhost' (using password: YES) in /home/nuss3952/public_html/Admin/Api/koneksi.php on line 16
+[20-Sep-2022 16:22:26 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/nuss3952/public_html/parser-php-version.php on line 383
+[20-Sep-2022 16:28:59 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 16
+[20-Sep-2022 16:29:04 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 16:29:04 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 16:31:27 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 16:31:27 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 16:36:22 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 16:36:22 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 16:36:58 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 16:36:58 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 16:37:57 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 16:37:57 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 16:38:03 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 16:38:03 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 16:38:16 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 16:38:16 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 16:38:22 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 16:38:22 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 16:57:34 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 16:57:34 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 17:28:37 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 17:28:37 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 17:28:46 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 17:28:46 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 18:03:46 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 18:03:46 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 18:03:52 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 18:03:52 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[20-Sep-2022 18:03:55 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[20-Sep-2022 18:03:55 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[21-Sep-2022 14:42:45 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[21-Sep-2022 14:42:45 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[21-Sep-2022 16:12:48 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[21-Sep-2022 16:12:48 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[21-Sep-2022 16:12:55 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[21-Sep-2022 16:12:55 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[21-Sep-2022 16:14:26 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[21-Sep-2022 16:14:26 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[21-Sep-2022 22:38:49 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[21-Sep-2022 22:38:49 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[21-Sep-2022 22:38:53 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[21-Sep-2022 22:38:53 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[21-Sep-2022 22:39:57 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/nuss3952/public_html/log.php on line 7
+[21-Sep-2022 22:40:00 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '"', expecting ')' in /home/nuss3952/public_html/log.php on line 7
+[22-Sep-2022 00:33:33 Asia/Jakarta] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nuss3952/public_html/log.php on line 11
+[22-Sep-2022 00:33:33 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[22-Sep-2022 00:37:14 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[22-Sep-2022 00:38:08 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[22-Sep-2022 00:38:51 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[22-Sep-2022 00:40:35 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[22-Sep-2022 00:40:36 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nuss3952/public_html/Admin/Api/koneksi.php:22) in /home/nuss3952/public_html/log.php on line 14
+[16-Oct-2022 20:39:58 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/nuss3952/public_html/index.php on line 510
+[16-Oct-2022 20:40:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/nuss3952/public_html/index.php on line 510
+[16-Oct-2022 20:40:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/nuss3952/public_html/index.php on line 510
+[16-Oct-2022 20:40:05 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/nuss3952/public_html/index.php on line 510

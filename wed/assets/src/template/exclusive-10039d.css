@@ -1,0 +1,2380 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap');
+ @import url('http://fonts.cdnfonts.com/css/rondal');
+@font-face {
+    font-family: "Butler Bold";
+    src: url('https://nu-sa.my.id/wed/assets/plugin/fonts/Butler_Bold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Butler Light";
+    src: url('https://nu-sa.my.id/wed/assets/plugin/fonts/Butler_Light.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Butler Regular";
+    src: url('https://nu-sa.my.id/wed/assets/plugin/fonts/Butler_Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Rondal Regular";
+    src: url('https://nu-sa.my.id/wed/assets/plugin/font/Rondal-Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*
+@font-face {
+    font-family: "Rondal Semibold";
+    src: url('https://nu-sa.my.id/wed/assets/plugin/fonts/Rondal-Semibold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap'); */
+
+/* @font-face {
+    font-family: "Butler Bold";
+    src: url('https://katsudoto.id/plugin/fonts/Butler_Bold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+/* @font-face {
+    font-family: "Butler Light";
+    src: url('https://katsudoto.id/plugin/fonts/Butler_Light.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+/* @font-face {
+    font-family: "Butler Regular";
+    src: url('https://katsudoto.id/plugin/fonts/Butler_Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+/* @font-face {
+    font-family: "Rondal Regular";
+    src: url('https://katsudoto.id/plugin/fonts/Rondal-Regular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+@font-face {
+    font-family: "Rondal Semibold";
+    src: url('https://katsudoto.id/plugin/fonts/Rondal-Semibold.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body.insan {
+
+    /* Font Family */
+    --roboto: 'Roboto', sans-serif;
+    --butler-bold: 'Butler Bold', sans-serif;
+    --butler-light: 'Butler Light', sans-serif;
+    --butler: 'Butler Regular', sans-serif;
+    --rondal-semibold: 'Rondal Semibold', sans-serif;
+    --rondal: 'Rondal Regular', sans-serif;
+
+    /* Font Size */
+    --fs-title: 40px;
+    --fs-content: 15px;
+
+    /* Attribute */
+    --body-height: 100vh;
+
+}
+
+/* Warna - Putih */
+body.insan.putih {
+    
+    /* Colors */
+    --primary-clr: #1c1c1c;
+    --secondary-clr: #474747;
+    --tertiary-clr: #f4f4f4;
+
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+/* Warna - Sindy-Bey */
+body.insan.sindy-bey {
+    
+    /* Colors */
+    --primary-clr: #fcfcfc;
+    --secondary-clr: #b7b7b7;
+    --tertiary-clr: #141414;
+
+    --light-clr: #000000;
+    --dark-clr: #ffffff;
+}
+
+body.insan h1,
+body.insan h2,
+body.insan h3,
+body.insan h4,
+body.insan h5,
+body.insan h6 {
+    font-size: var(--fs-title);
+    font-family: var(--rondal);
+    font-weight: normal;
+    line-height: 1.2;
+    color: var(--dark-clr);
+}
+body.insan p {
+    font-family: var(--roboto);
+    font-size: var(--fs-content);
+    line-height: 1.3;  
+    color: var(--dark-clr);
+    font-weight: 300;
+}
+body.insan sup {
+    font-family: inherit;
+    font-size: 0.7em;
+    color: inherit;
+}
+body.insan font {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: inherit;
+    font-style: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body.insan {
+    overflow: visible;
+}
+@media only screen and (max-width: 960px) {
+    body.insan {
+        overflow: hidden;
+    }
+}
+
+body.insan::-webkit-scrollbar {
+    width: 10px;
+    height: 15px;
+}
+body.insan::-webkit-scrollbar-thumb,
+textarea::-webkit-scrollbar-thumb {
+    border-width: 2px;
+    background-color: var(--secondary-clr);
+}
+
+.form-control:focus, 
+.form-control:active {
+    background: #fff;
+    box-shadow: 0 0 2px var(--secondary-clr);
+    border-color: var(--secondary-clr);
+}
+
+@media only screen and (max-width: 425px) {
+    .form-control {
+        font-size: unset!important;
+        line-height: unset!important;
+        padding: unset!important;
+    }
+}
+
+
+/* Warna - Sindy Bey */
+body.sindy-bey input,
+body.sindy-bey textarea {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+
+
+/* ============================================
+    SIDE TO SIDE
+============================================ */
+.kat-page__side-to-side {
+    background: #ffffff;
+    min-height: 480px;
+    display: block;
+    position: relative;
+    height: 100%;
+}
+.kat-page__side-to-side,
+.kat-page__side-to-side * {
+    -webkit-overflow-scrolling: touch;
+}
+
+.kat-page__side-to-side .primary-pane {
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 61%;
+}
+.kat-page__side-to-side .secondary-pane {
+    position: static;
+    right: 0;
+    background: #fff;
+    width: 39%;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1400px) {
+
+    .kat-page__side-to-side .secondary-pane section.video-gallery .inner .video-outer .video {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    .kat-page__side-to-side .primary-pane {
+        position: relative;
+        width: 100%;
+        display: none;
+    }
+    .kat-page__side-to-side .secondary-pane {
+        position: relative;
+        width: 100%;
+    }
+
+}
+
+
+
+/* ============================================
+    SIDE TO SIDE => PRIMARY PANE
+============================================ */
+.kat-page__side-to-side .primary-pane .inner {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey .kat-page__side-to-side .primary-pane .inner {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+.kat-page__side-to-side .primary-pane .inner::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(0 0 0 / 30%); */   
+    background: linear-gradient(to bottom, rgb(0 0 0 / 50%) 0%, rgb(255 255 255 / 0%), rgb(0 0 0 / 50%) 90%);
+    background: -o-linear-gradient(to bottom, rgb(0 0 0 / 50%) 0%, rgb(255 255 255 / 0%), rgb(0 0 0 / 50%) 90%);
+    background: -moz-linear-gradient(to bottom, rgb(0 0 0 / 50%) 0%, rgb(255 255 255 / 0%), rgb(0 0 0 / 50%) 90%);
+    background: -webkit-linear-gradient(to bottom, rgb(0 0 0 / 50%) 0%, rgb(255 255 255 / 0%), rgb(0 0 0 / 50%) 90%);
+}
+
+.kat-page__side-to-side .primary-pane .inner .details {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 10% 20% 11% 7%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 10px;
+    z-index: 2;
+}
+.kat-page__side-to-side .primary-pane .inner .details h1 {
+    padding: 0;
+    margin-bottom: 10px;
+    font-size: calc(var(--fs-title) + 50px);
+    color: var(--light-clr);
+}
+.kat-page__side-to-side .primary-pane .inner .details p {
+    font-size: calc(var(--fs-content) + 5px);
+    color: var(--light-clr);
+    margin-bottom: 5px;
+    margin-left: 7.5px;
+}
+
+/* Highlight */
+.kat-page__side-to-side .primary-pane .inner .highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+.kat-page__side-to-side .primary-pane .inner .highlight .preview-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.kat-page__side-to-side .primary-pane .inner .highlight .preview-container .slick-list {
+    width: 100%!important;
+    height: 100%!important;
+}
+.kat-page__side-to-side .primary-pane .inner .highlight .preview-container .slick-track {
+    width: 100%!important;
+    height: 100%!important;
+    position: relative!important;
+}
+.kat-page__side-to-side .primary-pane .inner .highlight .preview-container .picture {
+    width: 100%!important;
+    height: 100%!important;
+    top: 0;
+    left: 0;
+    position: absolute!important;
+}
+.kat-page__side-to-side .primary-pane .inner .highlight .preview-container .picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+/* ======================
+    TOP COVER
+====================== */
+section.top-cover {
+    background-color: var(--secondary-clr);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: var(--body-height);
+    z-index: 999999;
+    top: 0;
+    /* top: -120%; */
+    left: 0;
+    padding: 0;
+    
+    transition: all 1.8s;
+    transition-timing-function: cubic-bezier(.23,.56,.38,.78);
+    -webkit-transition-timing-function: cubic-bezier(.23,.56,.38,.78);
+    -moz-transition-timing-function: cubic-bezier(.23,.56,.38,.78);
+    -o-transition-timing-function: cubic-bezier(.23,.56,.38,.78);
+
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    section.top-cover {
+        display: flex;   
+    }
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.top-cover {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+section.top-cover.hide {
+    top: -120%;
+    bottom: 120%;
+    pointer-events: none;
+}
+section.top-cover .inner {
+    padding: 15px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+section.top-cover .inner::before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0 0 0 / 50%);    
+}
+
+section.top-cover .inner .details {
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: 10vh;
+    position: relative;
+    z-index: 2;
+}
+section.top-cover .inner .details h1 {
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: calc(var(--fs-title) + 25px);
+    color: var(--light-clr);
+}
+section.top-cover .inner .details p {
+    font-size: calc(var(--fs-content) + 2px);
+    color: var(--light-clr);
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+section.top-cover .inner .details a.link {
+    background-color: transparent;
+    border: 1px solid var(--light-clr);
+    font-size: calc(var(--fs-content) + 2px);
+    font-family: var(--roboto);
+    font-weight: 300;
+    text-decoration: none;
+    margin: 5px auto 10px auto;
+    display: inline-block;
+    color: var(--light-clr);
+    padding: 6px 30px;
+    border-radius: 7px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+section.top-cover .inner .details a.link:hover {
+    background-color: var(--light-clr);
+    color: var(--dark-clr);
+}
+
+/* Highlight */
+section.top-cover .inner .highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+section.top-cover .inner .highlight .preview-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+section.top-cover .inner .highlight .preview-container .slick-list {
+    width: 100%!important;
+    height: 100%!important;
+}
+section.top-cover .inner .highlight .preview-container .slick-track {
+    width: 100%!important;
+    height: 100%!important;
+    position: relative!important;
+}
+section.top-cover .inner .highlight .preview-container .picture {
+    width: 100%!important;
+    height: 100%!important;
+    top: 0;
+    left: 0;
+    position: absolute!important;
+}
+section.top-cover .inner .highlight .preview-container .picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+/* ======================
+    COVER
+====================== */
+section.cover {
+    background-color: var(--secondary-clr);
+    /* background: var(--primary-clr); */
+    /* background: lightsalmon; */
+    min-height: var(--body-height);
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.cover {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+section.cover .inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 0 0;
+    position: relative;
+    /* background-color: lightseagreen; */
+}
+section.cover .inner::before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 50%) 0%, rgb(255 255 255 / 0%), rgb(0 0 0 / 50%) 90%);
+    background: -o-linear-gradient(to bottom, rgb(0 0 0 / 50%) 0%, rgb(255 255 255 / 0%), rgb(0 0 0 / 50%) 90%);
+    background: -moz-linear-gradient(to bottom, rgb(0 0 0 / 50%) 0%, rgb(255 255 255 / 0%), rgb(0 0 0 / 50%) 90%);
+    background: -webkit-linear-gradient(to bottom, rgb(0 0 0 / 50%) 0%, rgb(255 255 255 / 0%), rgb(0 0 0 / 50%) 90%);
+    /* background: rgb(0 0 0 / 25%); */
+}
+
+section.cover .inner .head {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: auto;
+    position: relative;
+    z-index: 3;
+    /* background-color: lightpink; */
+}
+section.cover .inner .head .logo {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-bottom: 10px;
+}
+section.cover .inner .head .logo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    object-position: center;
+}
+section.cover .inner .head p {
+    font-size: var(--fs-content);
+    color: var(--light-clr);
+}
+
+section.cover .inner .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 0;    
+    display: block;
+}
+section.cover .inner .body .preview-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;    
+    background: var(--primary-clr);
+    /* background: #212121; */
+}
+section.cover .inner .body .preview-container .slick-list {
+    width: 100%!important;
+    height: 100%!important;
+}
+section.cover .inner .body .preview-container .slick-track {
+    width: 100%!important;
+    height: 100%!important;
+    position: relative!important;
+}
+section.cover .inner .body .preview-container .picture {
+    width: 100%!important;
+    height: 100%!important;
+    top: 0;
+    left: 0;
+    position: absolute!important;    
+    background-color: #ffffff;
+}
+section.cover .inner .body .preview-container .picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+section.cover .inner .foot {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    padding: 10px 15px;
+    margin-bottom: 7.5%;
+    margin-top: auto;
+    /* background-color: olive; */
+}
+section.cover .inner .foot h1 {
+    padding: 0;
+    margin: 5px auto;
+    font-size: calc(var(--fs-title) + 25px);
+    color: var(--light-clr);
+    text-transform: uppercase;
+    /* background-color: deeppink; */
+}
+section.cover .inner .foot p {
+    font-size: calc(var(--fs-content) + 2px);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--light-clr);
+}
+section.cover .inner .foot p.date {
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+
+
+/* ======================
+    COUPLE
+====================== */
+section.couple {
+    background-color: var(--light-clr);
+    /* background: var(--secondary-clr); */
+    /* background: lightsalmon; */
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+section.couple .inner {
+    padding: 15px 0;
+    /* background: lightseagreen; */
+    text-align: center;
+    position: relative;
+}
+
+section.couple .inner .head {
+    /* background: lightpink; */
+    /* width: 100%; */
+    max-width: 80%;
+    padding: 10px 10%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+section.couple .inner .head h1 {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: var(--fs-title);
+    text-align: center;
+    text-transform: uppercase;
+    /* background-color: deeppink; */
+}
+section.couple .inner .head p {
+    font-size: calc(var(--fs-content) + 2px);
+    font-style: italic;
+    padding: 0;
+    margin-top: 10px;
+    /* background: deepskyblue; */
+}
+
+/* Texture outer */
+section.couple .inner .head > .texture-outer:nth-child(1) {
+    background-color: tomato;
+}
+section.couple .inner .head .texture-couple {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 45px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: var(--primary-clr);
+}
+section.couple .inner .head .texture-couple.left {    
+    left: -100%;
+    margin-left: 8.5%;
+}
+section.couple .inner .head .texture-couple.right {
+    right: -100%;
+    margin-right: 8.5%;
+}
+
+section.couple .inner .body {
+    /* background: olive; */
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+section.couple .inner .body.bride-first {
+    flex-direction: column-reverse;
+}
+section.couple .inner .body .groom,
+section.couple .inner .body .bride {
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 720px;
+    /* background: peru; */
+}
+section.couple .inner .body .preview {
+    text-align: center;
+    padding: 10px 15px;
+    /* background: tomato; */
+}
+section.couple .inner .body .preview .picture {
+    --border-radius: 0px;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;    
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    overflow: hidden;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+section.couple .inner .body .preview .picture a {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+section.couple .inner .body .preview .picture img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    background: var(--secondary-clr);
+}
+
+section.couple .inner .body .details {
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: -10px;
+    /* background: violet; */
+}
+section.couple .inner .body .details h2 {
+    font-weight: normal;
+    font-size: calc(var(--fs-title) - 7.5px);
+    font-family: var(--butler);
+    margin-bottom: 5px;
+    /* background-color: deepskyblue; */
+}
+section.couple .inner .body .details p {
+    line-height: 1.5;
+    margin-bottom: 7px;
+    color: var(--dark-clr);
+    font-weight: 300;
+}
+section.couple .inner .body .details p.bio {
+    font-style: italic;
+}
+section.couple .inner .body .details p:last-of-type {
+    margin-bottom: 0;
+}
+section.couple .inner .body .details a.link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-style: italic;
+    font-size: var(--fs-content);
+    color: var(--dark-clr);
+}
+section.couple .inner .body .details a.link:hover {
+    text-decoration: underline;
+}
+section.couple .inner .body .details a.link i {
+    font-size: 0.9em;
+}
+
+section.couple .inner .body .separator {
+    padding: 10px;
+    text-align: center;
+    /* background: palevioletred; */
+}
+section.couple .inner .body .separator .separator-ornament {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 80px;
+    font-family: var(--butler);
+    line-height: 1;
+    color: var(--secondary-clr);
+    /* background-color: deepskyblue; */
+}
+
+
+
+/* ======================
+    STORY
+====================== */
+section.love-story {
+    background-color: var(--tertiary-clr);
+    /* background-color: lightsalmon; */
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+section.love-story .inner {
+    padding: 60px 0;
+    position: relative;
+    /* background-color: lightseagreen; */
+}
+
+section.love-story .inner .head {
+    padding: 15px;
+    text-align: center;
+    /* background-color: lightpink; */
+}
+section.love-story .inner .head h1 {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: var(--fs-title);
+    /* background-color: deepskyblue; */
+}
+
+section.love-story .inner .body {
+    padding: 10px 0;
+    /* background-color: peru; */
+}
+section.love-story .inner .body .stories {
+    display: flex;
+    flex-direction: column;
+    /* background-color: plum; */
+}
+section.love-story .inner .body .stories .story-outer {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    /* background-color: purple; */
+}
+section.love-story .inner .body .stories .story {
+    /* background-color: royalblue; */
+    /* background-color: transparent; */
+    width: 100%;
+    max-width: 480px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+section.love-story .inner .body .stories .story .preview {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    /* background-color: lightsalmon; */
+}
+section.love-story .inner .body .stories .story .preview .picture {    
+    --width: 100%;
+    --height: 320px;
+    --round-sm: 20px;
+    --round-lg: 100px;
+
+    width: var(--width);    
+    height: var(--height);
+    max-width: 350px;
+    max-height: 466px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);    
+    border: none;
+    outline: none;
+}
+section.love-story .inner .body .stories .story .preview .picture > a {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+section.love-story .inner .body .stories .story .preview .picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    background-color: var(--secondary-clr);
+}
+section.love-story .inner .body .stories .story .preview .picture,
+section.love-story .inner .body .stories .story .preview .picture > a,
+section.love-story .inner .body .stories .story .preview .picture img {
+    border-top-right-radius: var(--round-sm);
+    border-top-left-radius: var(--round-lg);
+    border-bottom-left-radius: var(--round-sm);
+    border-bottom-right-radius: var(--round-lg);
+}
+section.love-story .inner .body .stories .story-outer:nth-child(even) .story .preview .picture,
+section.love-story .inner .body .stories .story-outer:nth-child(even) .story .preview .picture > a,
+section.love-story .inner .body .stories .story-outer:nth-child(even) .story .preview .picture img {
+    border-top-right-radius: var(--round-lg);
+    border-top-left-radius: var(--round-sm);
+    border-bottom-left-radius: var(--round-lg);
+    border-bottom-right-radius: var(--round-sm);
+}
+
+section.love-story .inner .body .stories .story .details {
+    /* background-color: var(--secondary-clr); */
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: left;
+}
+section.love-story .inner .body .stories .story-outer:nth-child(even) .story .details {
+    text-align: right;
+}
+section.love-story .inner .body .stories .story .details h2 {
+    font-weight: normal;
+    font-size: calc(var(--fs-title) - 5px);
+    color: var(--dark-clr);
+    margin-bottom: 5px
+}
+section.love-story .inner .body .stories .story .details p {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: calc(var(--fs-content) + 2px);
+}
+
+/* Texture Round */
+section.love-story > .texture-outer {
+    height: 1px;
+}
+
+section.love-story .texture-round {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    left: 50%;    
+    transform: translateX(-50%);
+    background-color: var(--primary-clr);
+}
+section.love-story .texture-round.top {
+    top: 35px;
+}
+section.love-story .texture-round.bottom {
+    bottom: 35px;
+}
+section.love-story .texture-round.left {
+    margin-left: -22px;
+}
+section.love-story .texture-round.right {
+    margin-left: 22px;
+}
+
+
+
+/* ======================
+    GALLERY
+====================== */
+section.gallery {
+    background-color: var(--light-clr);
+    /* background: var(--primary-clr); */
+    /* background: lightsalmon; */
+    padding: 15px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Title */
+section.gallery .title {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* background-color: teal; */
+}
+section.gallery .title h1 {
+    width: 50%;
+    flex: 1;
+    padding: 0;
+    margin-bottom: auto;
+    font-size: var(--fs-title);
+    text-align: left;
+}
+section.gallery .title p {
+    width: 50%;
+    flex: 1;
+    font-size: calc(var(--fs-content) + 0px);
+    font-style: italic;
+    color: var(--dark-clr);
+    line-height: 1.4;
+    margin-top: 5px;
+    text-align: right;
+}
+
+/* Body */
+section.gallery .body {
+    /* background-color: darkcyan; */
+    padding: 10px 0;
+}
+section.gallery .body .gallery__single-slider .slider-container .slider-item .preview {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+    border: none;
+    outline: none;
+}
+section.gallery .body .gallery__single-slider .slider-container .slider-item .preview,
+section.gallery .body .gallery__single-slider .slider-container .slider-item .preview .anchor,
+section.gallery .body .gallery__single-slider .slider-container .slider-item .preview .img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 60px;
+}
+section.gallery .body .gallery__single-slider .slider-container .slider-item:nth-child(even) .preview,
+section.gallery .body .gallery__single-slider .slider-container .slider-item:nth-child(even) .preview .anchor,
+section.gallery .body .gallery__single-slider .slider-container .slider-item:nth-child(even) .preview .img {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+
+
+
+/* ======================
+    VIDEO
+====================== */
+section.video-gallery {
+    background: var(--light-clr);
+    /* background: lightseagreen; */
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+section.video-gallery .inner {
+    padding: 10px 0 20px 0;
+}
+section.video-gallery .inner > .title {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 15px;
+    /* background-color: lightblue; */
+}
+section.video-gallery .inner > .title h1 {
+    padding: 0;    
+    margin-bottom: 0;
+    font-size: var(--fs-title);
+}
+section.video-gallery .inner > .title p {
+    font-size: calc(var(--fs-content) + 2px);
+    font-style: italic;
+    line-height: 1.5;
+}
+section.video-gallery .inner .video-outer {
+    padding: 5px 0;
+    /* background-color: coral; */
+}
+section.video-gallery .inner .video-outer .video {
+    margin-bottom: 10px;
+    padding: 10px;
+    /* background-color: darkolivegreen; */
+}
+section.video-gallery .inner .video-outer .video .preview,
+section.video-gallery .inner .video-outer .video .preview img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+}
+section.video-gallery .inner .video-outer .video:last-of-type {
+    margin-bottom: 0;
+}
+section.video-gallery .inner .video-outer .video > .title {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+section.video-gallery .inner .video-outer .video > .title h2 {
+    font-size: calc(var(--fs-content) + 5px);
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: var(--butler);
+    color: var(--primary-clr);
+}
+
+@media only screen and (min-width: 1440px) {
+    section.video-gallery .inner .video-outer .video {
+        margin-left: 25px;
+        margin-right: 25px;
+        padding: 10px;
+    }
+}
+@media only screen and (min-width: 961px) {
+    section.video-gallery .inner .video-outer .video {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10px 0;
+    }
+}
+
+
+
+/* ======================
+    SAVE THE DATE
+====================== */
+section.save-date {
+    background-color: var(--secondary-clr);
+    /* background-color: lightsalmon; */
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.save-date {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+section.save-date .inner {
+    /* background: lightseagreen; */
+    padding: 30px 0;
+    position: relative;
+    z-index: 1;    
+    margin: 0 auto;
+    text-align: center;
+}
+section.save-date .inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 60%);
+    pointer-events: none;
+}
+
+section.save-date .inner .head {
+    text-align: center;
+    padding: 10px 15px;
+    position: relative;
+    z-index: 1;
+    /* background: lightpink; */
+}
+section.save-date .inner .head h1 {
+    padding: 0px;
+    margin-bottom: 0;
+    font-size: calc(var(--fs-content) + 4px);
+    font-family: var(--roboto);
+    color: var(--light-clr);
+    font-weight: 300;
+    /* background: deeppink; */
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+section.save-date .inner .body {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    /* background: peru; */
+}
+section.save-date .inner .body .countdown {
+    /* background: mediumaquamarine; */
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+section.save-date .inner .body .countdown > div {
+    width: 80px;
+    margin: 0 5px;
+    padding: 5px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* background-color: darkolivegreen; */
+}
+section.save-date .inner .body .countdown > div h2 {
+    font-family: var(--rondal-semibold);
+    font-weight: normal;
+    font-size: calc(var(--fs-title) + 45px);
+    line-height: 1;
+    margin-bottom: 0;
+    color: var(--light-clr);
+}
+section.save-date .inner .body .countdown > div small {
+    font-family: var(--roboto);
+    font-size: calc(var(--fs-content) - 2px);
+    color: var(--light-clr);
+}
+
+section.save-date .inner p.date {
+    font-size: calc(var(--fs-content) + 0px);
+    margin-top: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--light-clr);
+    position: relative;
+    z-index: 1;
+}
+section.save-date .inner .foot {
+    text-align: center;
+    padding: 10px 15px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+section.save-date .inner .foot #addToCalendar {
+    background-color: var(--light-clr);
+    border: none;
+    outline: none;
+    color: var(--dark-clr);
+    display: inline-block;
+    font-weight: normal;
+    font-family: var(--roboto);
+    font-size: var(--fs-content);
+    padding: 7.5px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+section.save-date .inner .foot #addToCalendar:hover {
+    background-color: var(--secondary-clr);
+    color: var(--light-clr);
+}
+
+/* Hightlight */
+section.save-date > .highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section.save-date > .highlight .preview-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+section.save-date > .highlight .preview-container .slick-list {
+    width: 100%!important;
+    height: 100%!important;
+}
+section.save-date > .highlight .preview-container .slick-track {
+    width: 100%!important;
+    height: 100%!important;
+    position: relative!important;
+}
+section.save-date > .highlight .preview-container .picture {
+    width: 100%!important;
+    height: 100%!important;
+    top: 0;
+    left: 0;
+    position: absolute!important;
+}
+section.save-date > .highlight .preview-container .picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* ======================
+    EVENT
+====================== */
+section.event-outer {
+    background: var(--light-clr);
+    /* background: lightsalmon; */
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+section.event-outer .inner {
+    padding: 30px 0 40px 0;
+    text-align: center;    
+    position: relative;
+    /* background: lightseagreen; */
+}
+
+section.event-outer .inner .head {
+    width: 100%;
+    max-width: 1024px;
+    padding: 10px 15px;    
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    /* background: lightpink; */
+}
+section.event-outer .inner .head h1 {
+    padding: 0 15px;
+    margin-bottom: 0;
+    font-size: calc(var(--fs-title) - 5px);
+    text-transform: uppercase;
+    /* background: deepskyblue; */
+}
+section.event-outer .inner .head p {
+    font-style: italic;
+    font-size: calc(var(--fs-content) + 2px);
+    color: var(--dark-clr);
+    padding: 0;
+    margin-top: 5px;
+    /* background: dimgrey; */
+}
+
+section.event-outer .inner .head + .body {
+    margin-top: 5px;
+}
+section.event-outer .inner .body {
+    padding: 0 0 10px 0;
+    position: relative;
+    z-index: 1;
+    /* background-color: orangered; */
+}
+
+section.event-outer .inner .body .event {
+    margin-bottom: 10px;
+    /* background-color: plum; */
+}
+section.event-outer .inner .body .event:last-of-type {
+    margin-bottom: 0;
+}
+
+section.event-outer .inner .body .event > .title {
+    padding: 5px 15px;
+    margin: 0 auto;
+    position: relative;
+    /* background: dodgerblue; */
+}
+section.event-outer .inner .body .event > .title h1 {
+    padding: 0;
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: calc(var(--fs-title) + 50px);
+}
+section.event-outer .inner .body .event > .title p {
+    font-style: italic;
+    font-size: calc(var(--fs-content) + 2px);
+    margin: 5px auto;
+}
+section.event-outer .inner .body .event > .title .texture-outer {
+    position: relative;
+    height: 100px;
+    margin: 10px auto;
+}
+section.event-outer .inner .body .event > .title .texture-outer.top {
+    margin-bottom: 15px;
+}
+section.event-outer .inner .body .event > .title .texture-outer.bottom {
+    margin-top: 20px;
+}
+section.event-outer .inner .body .event > .title .texture-line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 100%;
+    background-color: var(--primary-clr);
+}
+
+section.event-outer .inner .body .event .activities {
+    /* background: firebrick; */
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+section.event-outer .inner .body .event .activities .activity {
+    /* background: forestgreen; */
+    width: 100%;
+    max-width: 400px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+section.event-outer .inner .body .event .activities .activity:last-of-type {
+    margin-bottom: 0;
+}
+
+section.event-outer .inner .body .event .activities .activity > .title {
+    padding: 10px 15px;
+    text-align: center;
+    /* background: fuchsia; */
+}
+section.event-outer .inner .body .event .activities .activity > .title img.party {
+    width: 65px;
+    height: 65px;
+    display: block;
+    object-fit: contain;
+    object-position: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+section.event-outer .inner .body .event .activities .activity > .title h1 {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: calc(var(--fs-title) - 5px);
+}
+section.event-outer .inner .body .event .activities .activity > .title p.desc {
+    font-size: calc(var(--fs-content) + 2px);    
+    font-style: italic;
+}
+section.event-outer .inner .body .event .activities .activity > .title p {
+    margin-bottom: 15px;
+}
+section.event-outer .inner .body .event .activities .activity > .title p:first-of-type {
+    margin-top: 5px;
+}
+section.event-outer .inner .body .event .activities .activity > .title p:last-of-type {
+    margin-bottom: 0;
+}
+section.event-outer .inner .body .event > .details {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+section.event-outer .inner .body .event > .details,
+section.event-outer .inner .body .event .activities .activity > .details {
+    /* background: lightcoral; */
+    padding: 10px 15px;
+    text-align: center;
+}
+section.event-outer .inner .body .event > .details p.hall,
+section.event-outer .inner .body .event .activities .activity > .details p.hall {
+    font-weight: 500;
+}
+section.event-outer .inner .body .event > .details p,
+section.event-outer .inner .body .event .activities .activity > .details p {
+    margin-bottom: 10px;
+}
+section.event-outer .inner .body .event > .details a.link,
+section.event-outer .inner .body .event .activities .activity > .details a.link {
+    display: inline-block;
+    font-family: var(--roboto);
+    font-size: var(--fs-content);
+    font-weight: 300;
+    padding: 7.5px 20px;
+    background-color: transparent;
+    border: 1px solid var(--primary-clr);
+    color: var(--dark-clr);
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 5px auto;
+    margin-top: 10px;
+    transition: all 0.25s ease-in-out;
+}
+section.event-outer .inner .body .event > .details a.link:hover,
+section.event-outer .inner .body .event .activities .activity > .details a.link:hover {
+    background-color: var(--primary-clr);
+    color: var(--light-clr);
+}
+
+
+/* ======================
+    PROTOCOL
+====================== */
+section.protocol {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.protocol {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+section.protocol.protocol-01 .inner .head,
+section.protocol.protocol-03 .inner .head {
+    padding: 20px 15px;
+    background-color: var(--primary-clr);
+}
+section.protocol.protocol-02 .inner .head .step-outer {
+    background-color: var(--primary-clr);
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.protocol.protocol-01 .inner .head,
+body.sindy-bey section.protocol.protocol-03 .inner .head,
+body.sindy-bey section.protocol.protocol-02 .inner .head .step-outer {
+    background-color: var(--tertiary-clr);
+}
+
+section.protocol.protocol-01 .inner .head p,
+section.protocol.protocol-03 .inner .head p {
+    font-size: calc(var(--fs-content) + 2px);
+    color: var(--light-clr);
+    font-weight: 300;
+    margin-bottom: 0;
+}
+section.protocol.protocol-01 .inner .head h1,
+section.protocol.protocol-03 .inner .head h1 {
+    margin-top: 10px;
+    font-size: calc(var(--fs-title) + 15px);
+    font-weight: normal;
+    color: var(--light-clr);
+}
+
+section.protocol-04 .inner .head .title {
+    font-size: var(--fs-title);
+    font-family: var(--rondal);
+    font-weight: normal;
+    line-height: 1.2;
+    color: var(--dark-clr);
+}
+
+.protocol.protocol-03 .inner .body {
+    padding: 20px 0 30px 0;
+}
+section.protocol.protocol-03 .inner .body .slider .content .text-01 {
+    font-family: var(--butler);
+    font-weight: normal;
+    font-size: calc(var(--fs-content) + 10px);
+    color: var(--dark-clr);
+    text-transform: capitalize;
+}
+.protocol.protocol-03 .inner .body .slider_dots::before {
+    border-color: var(--secondary-clr);
+}
+.protocol.protocol-03 .inner .body .slider_dots .slider_navigator {
+    background-color: var(--tertiary-clr);
+}
+.protocol.protocol-03 .inner .body .slider_dots .slider_navigator.slick-current.slick-center {
+    background-color: var(--secondary-clr);
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey .protocol.protocol-03 .inner .body .slider_dots::before {
+    border-color: var(--tertiary-clr);
+}
+body.sindy-bey .protocol.protocol-03 .inner .body .slider_dots .slider_navigator {
+    background-color: var(--secondary-clr);
+}
+body.sindy-bey .protocol.protocol-03 .inner .body .slider_dots .slider_navigator.slick-current.slick-center {
+    background-color: var(--tertiary-clr);
+}
+
+
+
+/* ======================
+    RSVP
+====================== */
+section.rsvp {
+    background: var(--light-clr);
+    padding: 10px 0;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    /* background-color: lightsalmon; */
+}
+section.rsvp .rsvp-inner {
+    padding: 10px 0;
+    position: relative;
+    /* background-color: lightseagreen; */
+}
+section.rsvp .rsvp-inner .rsvp-form,
+section.rsvp .rsvp-inner .rsvp-confirm,
+section.rsvp .rsvp-inner .rsvp-full {
+    padding: 0;
+}
+
+section.rsvp .rsvp-inner .head {
+    padding: 10px 35px;
+    margin: 0;
+    text-align: center;
+    /* background-color: lightpink; */
+}
+section.rsvp .rsvp-inner .head h1 {
+    padding: 0 30px;
+    margin-bottom: 0;
+    font-size: var(--fs-title);
+    display: inline-block;
+    letter-spacing: 0;
+    font-family: var(--rondal);
+    color: var(--dark-clr);
+    position: relative;
+}
+
+section.rsvp .rsvp-inner .body {
+    padding: 10px 15px;
+    margin: 0;
+    min-height: 0;
+    /* background-color: olive; */
+}
+section.rsvp .rsvp-inner .body p {
+    font-family: var(--roboto);
+    font-size: var(--fs-content);
+    color: var(--dark-clr);
+    line-height: 1.5;
+}
+section.rsvp .rsvp-inner .body .form-group {
+    margin-bottom: 20px;
+}
+section.rsvp .rsvp-inner .body .form-group:last-of-type {
+    margin-bottom: 0;
+}
+
+section.rsvp .rsvp-inner .foot {
+    padding: 10px 15px;
+    margin: 0;
+    /* background-color: pink; */
+}
+section.rsvp label,
+section.rsvp label.form-label,
+section.rsvp button,
+section.rsvp input,
+section.rsvp p {
+    font-family: var(--roboto);
+    font-size: var(--fs-content);
+    color: var(--dark-clr);
+    font-weight: 300;
+}
+section.rsvp label.form-label {
+    font-weight: 400;
+}
+section.rsvp .rsvp-inner .attendance-value {
+    font-weight: 300;
+    border-radius: 4px;
+    font-family: var(--roboto);
+    font-size: var(--fs-content);
+    color: var(--light-clr);
+    background-color: #8f8f8f;
+}
+section.rsvp .rsvp-inner button.rsvp-submit,
+section.rsvp .rsvp-inner button.change-confirmation {
+    background-color: var(--primary-clr);
+    color: var(--light-clr);
+    font-family: var(--roboto);
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: var(--fs-content);
+}
+section.rsvp .rsvp-inner button.rsvp-submit:hover,
+section.rsvp .rsvp-inner button.change-confirmation:hover {
+    background-color: var(--secondary-clr);
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.rsvp .rsvp-inner .attendance-value {
+    color: var(--dark-clr);
+}
+body.sindy-bey section.rsvp .rsvp-inner button.rsvp-submit:hover,
+body.sindy-bey section.rsvp .rsvp-inner button.change-confirmation:hover {
+    color: var(--dark-clr);
+}
+
+.plus-minus-toggle button {
+    border-radius: 4px;
+}
+.plus-minus-toggle.plus button,
+.plus-minus-toggle.minus button {
+    background: #8f8f8f;
+    color: var(--light-clr);
+}
+.plus-minus-toggle.plus button:hover {
+    background-color: var(--primary-clr);
+    color: var(--light-clr);
+}
+.plus-minus-toggle.minus button:hover {
+    background-color: var(--tertiary-clr);
+    color: var(--dark-clr);
+}
+section.rsvp input.plus-minus-control {
+    border-radius: 4px!important;
+    border-color: var(--primary-clr);
+    color: var(--dark-clr);
+}
+
+/* E-Invitation */
+.rsvp .e-invitation {
+    margin-top: 0;
+    padding-bottom: 20px;
+    /* background-color: lightskyblue; */
+}
+.rsvp .e-invitation .e-invitation__card {
+    margin-bottom: 30px;
+}
+.rsvp .e-invitation .e-invitation__download {
+    background: var(--primary-clr);
+    padding: 10px 25px;
+    border-color: var(--primary-clr);
+    color: var(--light-clr);
+    font-family: var(--roboto);
+    border-radius: 4px;
+    font-size: var(--fs-content);
+}
+.rsvp .e-invitation .e-invitation__download .e-invitation__download-svg path {    
+    stroke: var(--light-clr);
+}
+.rsvp .e-invitation .e-invitation__download:hover {
+    background: var(--secondary-clr);
+    border-color: var(--secondary-clr);
+}
+
+section.rsvp + section.live-streaming {
+    margin-top: -10px;
+}
+
+/* ======================
+    LIVE STREAMING
+====================== */
+section.live-streaming {
+    background-color: var(--light-clr);
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    /* background-color: lightsalmon; */
+}
+section.live-streaming .inner {
+    padding: 10px 15px;
+    position: relative;
+    z-index: 1;
+    /* background-color: lightseagreen; */
+}
+section.live-streaming .inner .head {
+    padding: 10px 0;
+    /* background-color: lightblue; */
+}
+section.live-streaming .inner .head h1 {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: var(--fs-title);
+}   
+section.live-streaming .inner .head h1 + p {
+    margin-top: 15px;
+}
+section.live-streaming .inner .head p {
+    font-style: italic;
+    font-size: var(--fs-content);
+    line-height: 1.5;    
+    color: var(--dark-clr);
+}
+.live-streaming .inner .body {
+    padding: 10px 0;
+    /* background-color: olive; */
+}
+.live-streaming .inner .body p {
+    font-size: var(--fs-content);
+}
+.live-streaming .inner .body p.meeting-text {
+    font-size: calc(var(--fs-content) + 2px);
+    font-weight: 500;
+}
+.live-streaming .inner .body > .streaming-info > div > .preview,
+.live-streaming .inner .body > .streaming-info > div > .preview > img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+}
+.live-streaming .inner .body > .streaming-info > div.link > a {
+    border-radius: 4px;
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-size: var(--fs-content);
+    background-color: var(--primary-clr);
+    color: var(--light-clr);
+    padding: 10px 20px;
+}
+.live-streaming .inner .body > .streaming-info > div.link > a:hover {
+    background-color: var(--secondary-clr);
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey .live-streaming .inner .body > .streaming-info > div > .preview > .play-btn {
+    color: var(--light-clr);
+}
+
+section.live-streaming + section.gift {
+    margin-top: -10px;
+}
+
+
+/* ======================
+    INSTAGRAM FILTER
+====================== */
+
+/* Warna - Sindy Bey */
+body.sindy-bey .ig-filter-wrap {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+.ig-filter-title {
+    font-size: var(--fs-title);
+    font-family: var(--rondal);
+}
+.ig-filter-caption {
+    font-size: var(--fs-content);
+    font-family: var(--roboto);  
+    font-style: italic;  
+}
+.ig-filter-img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 60px;
+}
+.ig-filter-link {
+    font-size: var(--fs-content);
+    font-family: var(--roboto);
+    background-color: var(--dark-clr);
+    color: var(--light-clr);
+}
+.ig-filter-link:hover {
+    background-color: var(--secondary-clr);
+}
+
+
+/* ======================
+    GIFT
+====================== */
+section.gift {
+    background-color: var(--light-clr);
+    /* background: var(--light-clr); */
+    /* background-color: lightsalmon; */
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+section.gift .gift-inner {
+    padding: 10px 0 20px 0;
+    position: relative;
+    /* background-color: lightseagreen; */
+}
+
+section.gift .gift-inner .gift-title {
+    padding: 10px 15px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+    /* background-color: olive; */
+}
+section.gift .gift-inner .gift-title h1 {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: var(--fs-title);
+    /* background: deeppink; */
+}
+section.gift .gift-inner .gift-title h1 + p {
+    margin-top: 15px;
+}
+section.gift .gift-inner .gift-title p {
+    font-style: italic;
+    font-size: var(--fs-content);
+    line-height: 1.5;
+}
+
+section.gift .gift-inner .gift-body {
+    position: relative;
+    padding: 10px;
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.gift .gift-inner .gift-body {
+    --primary-clr: #1c1c1c;
+    --secondary-clr: #474747;
+    --tertiary-clr: #f4f4f4;
+    
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+section.gift .gift-inner .gift-form {    
+    background-color: var(--tertiary-clr);
+    /* background-color: peru; */
+    position: relative;
+    z-index: 2;
+}
+.gift .gift-inner .nominal-outer .nominal {
+    color: var(--dark-clr);
+    border-color: var(--dark-clr);
+}
+.gift .gift-inner .gift-form [name="nominal"]:hover + .nominal,
+.gift .gift-inner .gift-form [name="nominal"]:checked + .nominal {
+    background-color: var(--dark-clr);
+    border-color: var(--dark-clr);
+    color: var(--light-clr);
+}
+
+section.gift label,
+section.gift input,
+section.gift textarea,
+section.gift button,
+section.gift div,
+section.gift p,
+section.gift span {
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-size: var(--fs-content);
+    color: var(--dark-clr);
+}
+.gift label.form-label.center {
+    font-size: calc(var(--fs-content) + 2px);
+    font-family: var(--roboto);
+    font-weight: 500;
+}
+.gift .gift-inner .gift-form .gift-picture .picture-detail .head h2 {
+    font-size: calc(var(--fs-content) + 4px);
+    color: var(--dark-clr);
+    font-weight: 500;
+    font-family: var(--roboto);
+}
+.gift .gift-inner .gift-form .gift-picture .picture-detail .gift-back,
+.gift .gift-inner .gift-form .gift-picture .picture-detail .head p {
+    font-size: var(--fs-content);
+    color: var(--dark-clr);
+}
+.gift .gift-inner .gift-form .selectize-control .item {
+    padding: 10px!important;
+}
+
+.gift .gift-inner .gift-form .selectize-control .item p,
+.gift .gift-inner .gift-form .selectize-control .item p strong {
+    font-family: var(--roboto)!important;
+    color: var(--dark-clr)!important;
+    font-weight: 500!important;
+}
+.gift .gift-inner .gift-form .selectize-control .item:hover {
+    background-color: var(--primary-clr)!important;
+}
+.gift .gift-inner .gift-form .selectize-control .item:hover p,
+.gift .gift-inner .gift-form .selectize-control .item:hover p strong {
+    color: var(--light-clr)!important;
+}
+
+/* Warna - Sindy Bey */
+/* body.sindy-bey .gift .gift-inner .gift-form .selectize-control .selectize-input p,
+body.sindy-bey .gift .gift-inner .gift-form .selectize-control .item p,
+body.sindy-bey .gift .gift-inner .gift-form .selectize-control .item p strong {
+    color: var(--light-clr)!important;
+}
+body.sindy-bey .gift .gift-inner .gift-form .selectize-control .item:hover {
+    background-color: var(--secondary-clr)!important;
+}
+body.sindy-bey .gift .gift-inner .gift-form .selectize-control .item:hover p,
+body.sindy-bey .gift .gift-inner .gift-form .selectize-control .item:hover p strong {
+    color: var(--dark-clr)!important;
+} */
+
+.gift .gift-inner .gift-form .gift-details .bank-detail .saving-books .copy-account {
+    border-color: var(--secondary-clr);
+    color: var(--secondary-clr);
+}
+.gift .gift-inner .gift-form .gift-details .bank-detail .saving-books .copy-account:hover {
+    background: var(--secondary-clr);
+    color: var(--light-clr);
+}
+.gift .gift-inner .gift-form .gift-picture .picture-detail .body div[data-upload="gift-picture"]::before {
+    border-color: var(--secondary-clr);
+}
+.gift .gift-inner .gift-form .gift-picture .picture-detail .body div[data-upload="gift-picture"] > i {
+    color: var(--secondary-clr);
+}
+
+.gift .gift-inner .gift-form .gift-submit,
+.gift .gift-inner .gift-form .gift-next {
+    background-color: var(--primary-clr);
+    color: var(--light-clr);
+    font-family: var(--roboto);
+    font-weight: 300;
+    font-size: calc(var(--fs-content) + 2px);
+}
+.gift .gift-inner .gift-form .gift-submit:hover,
+.gift .gift-inner .gift-form .gift-next:hover {
+    background-color: var(--secondary-clr);
+}
+
+/* Tanpa Nominal Konfigurasi */
+section.gift .gift-inner .gift-form .gift-details .bank-detail {
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+section.gift .gift-inner .gift-form .gift-details .bank-detail .saving-books {
+    margin-bottom: 0;
+}
+section.gift .gift-inner .gift-form .bio-detail {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+/* =======================
+        COMMENT(S)
+======================= */
+section.comment-outer {
+    background-color: var(--light-clr);
+    /* background: var(--primary-clr); */
+    /* background-color: lightsalmon; */
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+section.comment-outer .comment-inner {
+    padding: 15px 0 40px 0;
+    position: relative;
+    z-index: 1;
+    /* background-color: lightseagreen; */
+}
+section.comment-outer .comment-inner .head {
+    padding: 10px 15px;
+    text-align: center;
+    margin-bottom: 5px;
+    position: relative;
+    font-family: var(--rondal);
+    /* background-color: olive; */
+}
+section.comment-outer .comment-inner .head h1 {
+    margin: 0;
+    padding: 0;
+    font-size: var(--fs-title);
+    /* background-color: deepskyblue; */
+}
+section.comment-outer .comment-inner .head p {
+    font-family: var(--roboto);
+    font-size: var(--fs-content);
+    line-height: 1.5;
+}
+section.comment-outer .comment-inner .head h1 + p {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+section.comment-outer .comment-inner .comment-form {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+section.comment-outer .comment-inner .comments {
+    padding: 0;
+}
+section.comment-outer .comment-inner .comments .comment {
+    padding: 10px 15px;
+}
+section.comment-outer .form-group {
+    margin-bottom: 10px;
+}
+section.comment-outer .comment-inner .foot {
+    padding: 10px 15px;
+}
+
+section.comment-outer p,
+section.comment-outer button,
+section.comment-outer textarea,
+section.comment-outer input,
+section.comment-outer small,
+section.comment-outer a,
+section.comment-outer strong,
+section.comment-outer .comment-body p {
+    font-family: var(--roboto);
+    color: var(--dark-clr);
+    font-weight: 300;
+    font-size: var(--fs-content);
+}
+section.comment-outer textarea,
+section.comment-outer input {
+    color: var(--dark-clr);
+}
+section.comment-outer strong {
+    font-family: var(--roboto);
+    color: inherit;
+    font-weight: 500;
+    font-size: calc(var(--fs-content) + 2px);
+}
+section.comment-outer .comment .comment-head p {
+    font-size: var(--fs-content);
+    color: var(--dark-clr);
+    font-family: var(--roboto);
+}
+section.comment-outer .comment .comment-body p {
+    font-size: var(--fs-content);
+}
+.comment .comment-foot small {
+    font-size: calc(var(--fs-content) - 2px);
+    color: var(--dark-clr);
+}
+.comment .comment-foot a {
+    font-size: calc(var(--fs-content) - 2px);
+}
+section.comment-outer .comment-inner button.more-comment,
+section.comment-outer .comment-form button.send-comment,
+section.comment-outer input,
+section.comment-outer textarea {
+    border-radius: 4px;
+}
+section.comment-outer .comment-inner button.more-comment,
+section.comment-outer .comment-form button.send-comment {
+    background-color: #8f8f8f;
+    color: var(--light-clr);
+    font-size: var(--fs-content);
+    padding: 10px 20px;
+    font-weight: 300;
+    font-family: var(--roboto);
+}
+section.comment-outer .comment-inner button.more-comment:hover,
+section.comment-outer .comment-form button.send-comment:hover {
+    background-color: var(--primary-clr);
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.comment-outer .comment-inner button.more-comment,
+body.sindy-bey section.comment-outer .comment-form button.send-comment {
+    color: var(--dark-clr);
+}
+body.sindy-bey section.comment-outer .comment-inner button.more-comment:hover,
+body.sindy-bey section.comment-outer .comment-form button.send-comment:hover {
+    background-color: var(--secondary-clr);
+    color: var(--dark-clr);
+}
+
+
+
+/* =======================
+        FOOTNOTE
+======================= */
+section.footnote {
+    background: var(--secondary-clr);
+    /* background: var(--primary-clr); */
+    /* background: lightblue; */
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.footnote {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+section.footnote .inner {
+    /* background: darkolivegreen;     */
+    width: 100%;
+    padding: 50px 0;
+    position: relative;    
+    z-index: 1;
+}
+section.footnote .inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 60%);
+}
+
+/* Quote */
+section.footnote .inner .quote {
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;    
+    position: relative;
+    z-index: 1;
+    /* background-color: cornflowerblue; */
+}
+section.footnote .inner .quote p {
+    font-style: italic;
+    color: var(--light-clr);
+}
+
+section.footnote .inner .quote + .details {
+    margin-top: 30px;
+}
+
+/* Details */
+section.footnote .inner .details {
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    /* background: lightseagreen; */
+}
+section.footnote .inner .details h1 {
+    font-size: calc(var(--fs-title) + 25px);
+    margin: 15px auto;
+    color: var(--light-clr);
+    text-transform: uppercase;
+    /* background: deeppink;     */
+}
+section.footnote .inner .details p {
+    font-size: calc(var(--fs-content) + 2px);
+    /* background: deepskyblue; */
+    color: var(--light-clr);
+}
+section.footnote .inner .details p.date {
+    text-transform: uppercase;
+    font-size: calc(var(--fs-content) + 4px);
+}
+
+/* Hightlight */
+section.footnote > .highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+section.footnote > .highlight .preview-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+section.footnote > .highlight .preview-container .slick-list {
+    width: 100%!important;
+    height: 100%!important;
+}
+section.footnote > .highlight .preview-container .slick-track {
+    width: 100%!important;
+    height: 100%!important;
+    position: relative!important;
+}
+section.footnote > .highlight .preview-container .picture {
+    width: 100%!important;
+    height: 100%!important;
+    top: 0;
+    left: 0;
+    position: absolute!important;
+}
+section.footnote > .highlight .preview-container .picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+}
+
+
+
+/* =======================
+        FOOTER
+======================= */
+section.footer {
+    background: var(--tertiary-clr);
+    padding: 0;
+}
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.footer {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+section.footer .footer-inner {
+    padding: 10px 0;
+}
+section.footer .footer-inner p {
+    font-weight: normal;
+    color: var(--light-clr);    
+    font-family: var(--butler);
+}
+.footer .footer-inner .footer-logo {
+    width: 55px;
+}
+section.footer .footer-inner .footer-logo path {
+    fill: var(--light-clr);
+}
+
+@media only screen and (max-width: 960px) {
+    section.footer .footer-inner.flex-column {
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 150px;
+    }
+    section.footer .footer-inner.flex-column p {
+        margin-right: 0;
+        font-size: calc(var(--fs-content) + 4px);
+    }
+    section.footer .footer-inner.flex-column .footer-logo {
+        margin-top: 10px;
+        width: 150px;
+    }
+}
+
+
+/* Warna - Sindy Bey */
+body.sindy-bey section.person {
+    --light-clr: #ffffff;
+    --dark-clr: #000000;
+}
+
+
+/* Texture Outer */
+.texture-outer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.texture-outer.top {
+    top: 0;
+}
+.texture-outer.bottom {
+    bottom: 0;
+}
+
+
+
+
